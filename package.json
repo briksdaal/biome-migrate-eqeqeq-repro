@@ -1,0 +1,15 @@
+{
+	"name": "biome-migrate-eqeqeq-repro",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"migrate": "biome migrate eslint --write",
+		"lint": "biome lint src",
+		"eslint": "eslint src"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.15",
+		"eslint": "10.12.0"
+	}
+}
